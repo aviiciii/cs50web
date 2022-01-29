@@ -1,0 +1,141 @@
+body {
+  background-color: chocolate;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search_nav {
+  padding: 20px;
+  font-size: larger;
+}
+.search_nav .nav-link {
+  color: #343a40;
+}
+.search_nav #nav-underline:hover {
+  color: #343a40;
+  text-decoration-line: underline;
+  text-decoration-color: #343a40;
+}
+
+.search {
+  text-align: center;
+  margin: 0 20px;
+  padding-top: 30px;
+  height: 200px;
+}
+.search .search_text {
+  font-family: arial, sans-serif;
+  font-size: 120%;
+}
+.search .search_text :hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.search .search_text :focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
+.search .search_text input {
+  border: 1px solid #a6a194;
+  border-radius: 30px;
+  width: 660px;
+  height: 7vh;
+  padding: 0 20px;
+}
+.search .search_button {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.search .search_button .search_button_item {
+  border-radius: 8px;
+  width: 200px;
+  height: 6vh;
+  margin: 0 18px;
+  border: none;
+}
+.search .search_button :hover, .search .search_button :focus {
+  border: 2px solid #bab8b1;
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 5%;
+}
+.logo img {
+  width: 26%;
+}
+
+.nav_logo {
+  margin-right: 80%;
+}
+
+.adv_heading {
+  color: #d93025;
+}
+
+.adv_heading, .adv_form {
+  margin-left: 32px;
+  margin-bottom: 15px;
+}
+
+.adv_form {
+  color: #504f4f;
+  font-size: 22px;
+  margin-top: 40px;
+}
+.adv_form h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #363636;
+}
+.adv_form form {
+  margin-top: 35px;
+}
+.adv_form form .search_button {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.adv_form form .search_button .search_button_item {
+  background-color: #476ca8;
+  transition: 0.1s;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: 20%;
+  width: 200px;
+  border-radius: 8px;
+  height: 6vh;
+  border: none;
+}
+.adv_form form .search_button :hover, .adv_form form .search_button :focus {
+  background-color: #27559e;
+  transition: 0.1s;
+}
+
+.adv_search_text {
+  display: flex;
+  flex-direction: row;
+  margin: 14px 0;
+  font-size: 90%;
+}
+.adv_search_text :focus-within {
+  outline: none;
+  border: 1px solid #302f2e;
+}
+.adv_search_text input {
+  border-radius: 4px;
+  border: 1px solid #a6a194;
+  display: inline-block;
+  width: 60%;
+  height: 30px;
+  text-align: left;
+  padding: 5px 10px;
+  width: 50%;
+}
+.adv_search_text .sidehead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  width: 30%;
+}
+
+/*# sourceMappingURL=sytles.css.map */
