@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+         <!-- navbar -->
+        <div class="search_nav">
+            <nav class="navbar">
+                <img src="google_logo_edit.png" width=90px>
+
+                <span class="navbar-text">
+                    <a class="nav-link" id="nav-underline" href="index.html">Google Search</a>
+                </span>
+            </nav>
+        </div>
+
+        <div class="adv_heading">
+            <h1>Advanced Search</h1>
+        </div>
+        <hr>
+        <div class="adv_form">
+            <h3>Find pages with...</h3>
+            <form action="https://www.google.com/search" autocomplete="off">
+                <div class="adv_search_text">
+                    <h4 class="sidehead">all these words:</h4>
+                    <input type="text" name="as_q">
+                </div>
+                <div class="adv_search_text">
+                    <h4 class="sidehead">this exact word or phrase:</h4>
+
+                    <input type="text" name="as_epq">
+                </div>
+                <div class="adv_search_text">
+                    <h4 class="sidehead">any of these words:</h4>
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="adv_search_text">
+                    <h4 class="sidehead">none of these words:</h4>
+                    <input type="text" name="as_eq">
+                </div>
+                <div class="search_button">
+                    <input class="search_button_item" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>    
+    </body>
+</html>
